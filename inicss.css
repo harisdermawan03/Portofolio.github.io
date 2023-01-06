@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-image: url('./bn.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 150vh;
+    padding-top: 70px;
+    
+}
+.About{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    justify-content: center;
+}
+.About img{
+    width: 300px;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+.About p{
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+.About h2{
+    color: white;
+    padding-top: 20px;
+    font-family: 'poppins', sans-serif;
+}
+.data{
+    color: white;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
+.About h3{
+    padding: 2rem;
+    color: white;
+    
+}
